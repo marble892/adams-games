@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
+    style="position: fixed; top: 0; left: 0;">
+    <foreignObject x="0" y="0" width="100%" height="100%">
+        <body xmlns="http://www.w3.org/1999/xhtml">
+            <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+            <link rel="icon" type="image/x-icon" href="disc logo clicker.icon.png" />
+            <iframe style="position:fixed;top:0;left:0;width:100%;height:100%;border:none;" id="game"></iframe>
+        </body>
+    </foreignObject>
+    <script>
+    <![CDATA[
+        document.title = "disc logo clicker";
+        const frame=document.getElementById("game");
+        fetch("/disc logo clicker.html")
+        .then(r=>r.text())
+        .then(html=>{
+            frame.srcdoc=html;
+        });
+    ]]>
+    </script>
+</svg>
