@@ -22,8 +22,8 @@ const files = await (async (files, contentType) => {
     }));
     return output;
 })({
-    "disc logo clicker.pck": ["/disc logo clicker.pck"],
-    "disc logo clicker.wasm": ["/disc logo clicker.wasm.001", "/disc logo clicker.wasm.002"]
+    "disc logo clicker.pck": ["disc logo clicker.pck"],
+    "disc logo clicker.wasm": ["disc logo clicker.wasm.001", "disc logo clicker.wasm.002"]
 }, "application/octet-stream");
 
 const Features = {
