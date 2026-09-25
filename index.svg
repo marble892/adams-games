@@ -11,7 +11,7 @@
     <![CDATA[
         document.title = "disc logo clicker";
         const frame=document.getElementById("game");
-        fetch("/disc logo clicker.html")
+        fetch("disc logo clicker.html")
         .then(r=>r.text())
         .then(html=>{
             frame.srcdoc=html;
